@@ -1,0 +1,18 @@
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\FrontEndProcessor\bin\Debug\FrontEndProcessor.exe.config
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\FrontEndProcessor\obj\Debug\FrontEndProcessor.exe
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\FrontEndProcessor\obj\Debug\FrontEndProcessor.pdb
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\FrontEndProcessor\bin\Debug\FrontEndProcessor.exe
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\FrontEndProcessor\bin\Debug\FrontEndProcessor.pdb
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\FrontEndProcessor\bin\Debug\CBA.Core.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\FrontEndProcessor\bin\Debug\CBA.Logic.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\FrontEndProcessor\bin\Debug\log4net.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\FrontEndProcessor\bin\Debug\Trx.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\FrontEndProcessor\bin\Debug\CBA.Data.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\FrontEndProcessor\bin\Debug\CBA.Core.pdb
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\FrontEndProcessor\bin\Debug\CBA.Logic.pdb
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\FrontEndProcessor\bin\Debug\log4net.xml
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\FrontEndProcessor\bin\Debug\CBA.Data.pdb
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\FrontEndProcessor\obj\Debug\FrontEndProcessor.csprojResolveAssemblyReference.cache
+D:\CBA\FrontEndProcessor\bin\Debug\FrontEndProcessor.exe.config
+D:\CBA\FrontEndProcessor\obj\Debug\FrontEndProcessor.exe
+D:\CBA\FrontEndProcessor\obj\Debug\FrontEndProcessor.pdb

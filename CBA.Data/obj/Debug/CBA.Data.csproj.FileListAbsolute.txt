@@ -1,0 +1,24 @@
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Data\bin\Debug\CBA.Data.dll.config
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Data\bin\Debug\CBA.Data.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Data\bin\Debug\CBA.Data.pdb
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Data\bin\Debug\CBA.Core.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Data\bin\Debug\EntityFramework.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Data\bin\Debug\CBA.Core.pdb
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Data\bin\Debug\EntityFramework.xml
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Data\obj\Debug\CBA.Data.csprojResolveAssemblyReference.cache
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Data\obj\Debug\CBA.Data.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Data\obj\Debug\CBA.Data.pdb
+C:\Users\Josh\Documents\CBA\CBA.Data\bin\Debug\CBA.Data.dll.config
+C:\Users\Josh\Documents\CBA\CBA.Data\bin\Debug\CBA.Data.dll
+C:\Users\Josh\Documents\CBA\CBA.Data\bin\Debug\CBA.Data.pdb
+C:\Users\Josh\Documents\CBA\CBA.Data\bin\Debug\CBA.Core.dll
+C:\Users\Josh\Documents\CBA\CBA.Data\bin\Debug\EntityFramework.dll
+C:\Users\Josh\Documents\CBA\CBA.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Josh\Documents\CBA\CBA.Data\bin\Debug\CBA.Core.pdb
+C:\Users\Josh\Documents\CBA\CBA.Data\bin\Debug\EntityFramework.xml
+C:\Users\Josh\Documents\CBA\CBA.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Josh\Documents\CBA\CBA.Data\obj\Debug\CBA.Data.csprojResolveAssemblyReference.cache
+C:\Users\Josh\Documents\CBA\CBA.Data\obj\Debug\CBA.Data.dll
+C:\Users\Josh\Documents\CBA\CBA.Data\obj\Debug\CBA.Data.pdb

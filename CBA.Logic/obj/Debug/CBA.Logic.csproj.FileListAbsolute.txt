@@ -1,0 +1,32 @@
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Logic\bin\Debug\CBA.Logic.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Logic\bin\Debug\CBA.Logic.pdb
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Logic\bin\Debug\CBA.Core.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Logic\bin\Debug\CBA.Data.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Logic\bin\Debug\CBA.Core.pdb
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Logic\bin\Debug\CBA.Data.pdb
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Logic\obj\Debug\CBA.Logic.csprojResolveAssemblyReference.cache
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Logic\obj\Debug\CBA.Logic.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Logic\obj\Debug\CBA.Logic.pdb
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Logic\bin\Debug\CBA.Logic.dll.config
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Logic\bin\Debug\EntityFramework.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Logic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Logic\bin\Debug\System.Web.Providers.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Logic\bin\Debug\EntityFramework.xml
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Logic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Logic\bin\Debug\System.Web.Providers.xml
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Debug\CBA.Logic.dll.config
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Debug\CBA.Logic.dll
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Debug\CBA.Logic.pdb
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Debug\CBA.Core.dll
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Debug\CBA.Data.dll
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Debug\EntityFramework.dll
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Debug\System.Web.Providers.dll
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Debug\CBA.Core.pdb
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Debug\CBA.Data.pdb
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Debug\EntityFramework.xml
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Debug\System.Web.Providers.xml
+C:\Users\Josh\Documents\CBA\CBA.Logic\obj\Debug\CBA.Logic.csprojResolveAssemblyReference.cache
+C:\Users\Josh\Documents\CBA\CBA.Logic\obj\Debug\CBA.Logic.dll
+C:\Users\Josh\Documents\CBA\CBA.Logic\obj\Debug\CBA.Logic.pdb

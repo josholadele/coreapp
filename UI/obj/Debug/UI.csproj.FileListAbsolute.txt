@@ -1,0 +1,24 @@
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\UI\bin\UI.dll.config
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\UI\bin\UI.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\UI\bin\UI.pdb
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\UI\bin\CBA.Core.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\UI\bin\CBA.Logic.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\UI\bin\CBA.Data.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\UI\bin\CBA.Core.pdb
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\UI\bin\CBA.Logic.pdb
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\UI\bin\CBA.Data.pdb
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\UI\obj\Debug\UI.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\UI\obj\Debug\UI.pdb
+C:\Users\Josh\Documents\CBA\UI\bin\UI.dll.config
+C:\Users\Josh\Documents\CBA\UI\bin\UI.dll
+C:\Users\Josh\Documents\CBA\UI\bin\UI.pdb
+C:\Users\Josh\Documents\CBA\UI\bin\CBA.Core.dll
+C:\Users\Josh\Documents\CBA\UI\bin\CBA.Logic.dll
+C:\Users\Josh\Documents\CBA\UI\bin\CBA.Data.dll
+C:\Users\Josh\Documents\CBA\UI\bin\CBA.Core.pdb
+C:\Users\Josh\Documents\CBA\UI\bin\CBA.Logic.pdb
+C:\Users\Josh\Documents\CBA\UI\bin\CBA.Data.pdb
+C:\Users\Josh\Documents\CBA\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\Josh\Documents\CBA\UI\obj\Debug\UI.dll
+C:\Users\Josh\Documents\CBA\UI\obj\Debug\UI.pdb

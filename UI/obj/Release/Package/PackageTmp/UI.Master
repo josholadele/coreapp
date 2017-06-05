@@ -1,0 +1,317 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UI.master.cs" Inherits="UI.UI" %>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head runat="server">        
+        <!-- META SECTION -->
+        <title>Bank Of Oladele CBA</title>            
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <!-- END META SECTION -->
+        <!-- START SCRIPTS -->
+        <!-- START PLUGINS -->
+        <%--<script type="text/javascript" src="js/plugins/jquery/jquery.min.js"></script>--%>
+
+        <script type="text/javascript" src="js/plugins/jquery/jQuery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="js/plugins/jquery/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/plugins/bootstrap/bootstrap.min.js"></script>        
+        <!-- END PLUGINS -->
+
+        <!-- START THIS PAGE PLUGINS-->        
+        <script type='text/javascript' src='js/plugins/icheck/icheck.min.js'></script>        
+        <script type="text/javascript" src="js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
+        <script type="text/javascript" src="js/plugins/scrolltotop/scrolltopcontrol.js"></script>
+        
+        <script type="text/javascript" src="js/plugins/morris/raphael-min.js"></script>
+        <script type="text/javascript" src="js/plugins/morris/morris.min.js"></script>       
+        <script type="text/javascript" src="js/plugins/rickshaw/d3.v3.js"></script>
+        <script type="text/javascript" src="js/plugins/rickshaw/rickshaw.min.js"></script>
+        <script type='text/javascript' src='js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js'></script>
+        <script type='text/javascript' src='js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js'></script>                
+        <script type='text/javascript' src='js/plugins/bootstrap/bootstrap-datepicker.js'></script>                
+        <script type="text/javascript" src="js/plugins/owl/owl.carousel.min.js"></script>
+        
+        
+        <script type="text/javascript" src="js/plugins/moment.min.js"></script>
+        <script type="text/javascript" src="js/plugins/daterangepicker/daterangepicker.js"></script>
+        <!-- END THIS PAGE PLUGINS-->        
+        <!-- CSS INCLUDE -->        
+        <link rel="stylesheet" type="text/css" id="theme" href="css/theme-default.css"/>
+
+        <!-- Alertify --> 
+        <script src="js/alertify.min.js" ></script>
+         <link rel="stylesheet" type="text/css"  href="css/alertify.min.css"/>
+         <link rel="stylesheet" type="text/css"  href="css/themes/default.min.css"/>
+         <link rel="stylesheet" type="text/css"  href="css/select2.min.css"/>
+         
+          <script type="text/javascript" src="js/select2.min.js" ></script>                 
+
+
+        <!-- END OF CSS INCLUDE -->                                    
+    </head>
+    <body>
+    
+        <style>
+               .text1 {
+                   color:white
+               }         
+                    </style>
+        <!-- START PAGE CONTAINER -->
+        <div class="page-container">
+            
+            <!-- START PAGE SIDEBAR -->
+            <div class="page-sidebar">
+                <!-- START X-NAVIGATION -->
+                <ul class="x-navigation">
+                    <li class="xn-logo">
+                        <a href="Dashboard.aspx">Bank Of Oladele</a>
+                        <a href="#" class="x-navigation-control"></a>
+                    </li>
+                    <li class="xn-profile">
+                        <div class="profile">
+                           <div class="profile-data">
+                                <div  class="profile-data-name">
+                                    
+                                    <%= Session["Username"].ToString() %>
+                                       
+                                </div>
+                                <div class="profile-data-title"><a href="#logout" id="logout" onclick="alertify.confirm('Message', 'Are you sure you want to log out?', function(){location = '/Default.aspx?Logout=1';},function(){location='/Dashboard.aspx'});">Log Out</a> || <a href="../ChangePassword.aspx">Change Password</a></div>
+                            </div>
+                        </div>                                                                        
+                    </li>
+                    <li class="xn-title">Navigation</li>
+                    <li class="active">
+                        <a href="../Dashboard.aspx"><span class="fa fa-desktop"></span> <span class="xn-text">Dashboard</span></a>                        
+                    </li>                    
+                    <li class="xn-openable">
+                        <a href="/#"><span class="fa fa-files-o"></span> <span class="xn-text">User Management</span></a>
+                        <ul>
+                            <li><a href="../AddUser.aspx"><span class="fa fa-image"></span> Add User</a></li>
+                            <li><a href="../ChangePassword.aspx"><span class="fa fa-user"></span>Change Password</a></li>
+                            <li><a href="../ViewUsers.aspx"><span class="fa fa-users"></span> View list of all Users</a></li>
+                        </ul>
+                    </li>
+                            
+                    <li class="xn-openable">
+                        <a href="#"><span class="fa fa-file-text-o"></span> <span class="xn-text">Teller Management</span></a>
+                        <ul>
+                            <li><a href="../AssignTill.aspx"><span class="fa fa-user"></span>Assign Till To User</a></li>
+                            <li><a href="../ViewTellers.aspx"><span class="fa fa-users"></span> View list of all Tellers</a></li>
+                        </ul>
+                    </li>
+                    <li class="xn-openable">
+                        <a href="/#"><span class="fa fa-files-o"></span> <span class="xn-text">Customer Management</span></a>
+                       <ul>
+                            <li><a href="../AddCustomer.aspx"><span class="fa fa-user"></span> Add a new Customer</a></li>
+                            <li><a href="../ViewCustomers.aspx"><span class="fa fa-user"></span> View list of all Customers</a></li>
+                        
+                       </ul>
+                    </li>
+                    <li class="xn-openable">
+                        <a href="/#"><span class="fa fa-files-o"></span> <span class="xn-text">Customer Account Management</span></a>
+                       <ul>
+                            <li><a href="../AddCustomerAccount.aspx"><span class="fa fa-user"></span> Add a new Customer Account</a></li>
+                            <li><a href="../CreateLoanAccount.aspx"><span class="fa fa-user"></span> Create a Loan Account</a></li>
+                            <li><a href="../CloseAccount.aspx"><span class="fa fa-user"></span> Close Account</a></li>
+                           <li><a href="../ViewCustomerAccounts.aspx"><span class="fa fa-user"></span> View list of all Customer Accounts</a></li>
+                        
+                       </ul>
+                    </li>
+                    <li class="xn-openable">
+                        <a href="/#"><span class="fa fa-files-o"></span> <span class="xn-text">Account Type Configuration</span></a>
+                       <ul>
+                            <li >
+                                <a href="/AccountConfig.aspx?ConfigID=1"><span class="fa fa-files-o"></span> <span class="xn-text">Savings Account</span></a>
+                           </li>
+                           <li >
+                                <a href="/AccountConfig.aspx?ConfigID=2"><span class="fa fa-files-o"></span> <span class="xn-text">Current Account</span></a>
+                           </li>
+                           <li>
+                                <a href="/AccountConfig.aspx?ConfigID=3"><span class="fa fa-files-o"></span> <span class="xn-text">Loan Account</span></a>
+                           </li>
+                            
+                       </ul>
+                    </li>
+                     <li class="xn-openable">
+                        <a href="/#"><span class="fa fa-files-o"></span> <span class="xn-text">GL Category Management</span></a>
+                       <ul>
+                            <li><a href="../AddGLCategory.aspx"><span class="fa fa-user"></span>Add new GL Category</a></li>
+                            <li><a href="../ViewGLCategories.aspx"><span class="fa fa-user"></span> View GL Categories</a></li>
+                        
+                       </ul>
+                    </li>
+                     <li class="xn-openable">
+                        <a href="/#"><span class="fa fa-files-o"></span> <span class="xn-text">GL Account Management</span></a>
+                       <ul>
+                            <li><a href="../AddGLAccount.aspx"><span class="fa fa-user"></span> Add a GL Account</a></li>
+                            <li><a href="../ViewGLAccounts.aspx"><span class="fa fa-user"></span> View GL Accounts</a></li>
+                        
+                       </ul>
+                    </li>
+                    <li class="xn-openable">
+                        <a href="/#"><span class="fa fa-files-o"></span> <span class="xn-text">GL Posting Management</span></a>
+                       <ul>
+                            <li><a href="../GLPosting.aspx"><span class="fa fa-user"></span> Post transactions into GLs</a></li>
+                            <li><a href="../ViewGLPostings.aspx"><span class="fa fa-user"></span> View list of GL Postings</a></li>
+                        
+                       </ul>
+                    </li>
+                    
+                    <li class="xn-openable">
+                        <a href="/#"><span class="fa fa-files-o"></span> <span class="xn-text">Teller Posting Management</span></a>
+                       <ul>
+                            <li><a href="../TellerPosting.aspx"><span class="fa fa-user"></span> Post transactions into Customer Accounts</a></li>
+                            <li><a href="../ViewTellerPostings.aspx"><span class="fa fa-user"></span> View list of Teller Postings</a></li>
+                        
+                       </ul>
+                    </li>
+                    <li class="xn-openable">
+                        <a href="/#"><span class="fa fa-files-o"></span> <span class="xn-text">Financial Reports Management</span></a>
+                       <ul>
+                            <li><a href="../PandL_Report.aspx"><span class="fa fa-user"></span> Profit and Loss Report</a></li>
+                            <li><a href="../BalanceSheet.aspx"><span class="fa fa-user"></span> Balance Sheet Report</a></li>
+                             <li><a href="../TrialBalance.aspx"><span class="fa fa-user"></span> View Trial Balance</a></li>
+                       </ul>
+                    </li>
+                    
+                    <li class="xn-openable">
+                        <a href="/#"><span class="fa fa-files-o"></span> <span class="xn-text">On-Us-Withdrawal Setup</span></a>
+                       <ul>
+                            <li><a href="../AddATMTerminal.aspx"><span class="fa fa-user"></span>Add ATM Terminal</a></li>
+                            <li><a href="../ViewATMTerminals.aspx"><span class="fa fa-user"></span>View ATM Teminals</a></li>
+                       </ul>
+                    </li>
+                    <li>
+                        <a href="../EOD.aspx"><span class="fa fa-desktop"></span> <span class="xn-text">EOD Process</span></a>                        
+                    </li>
+                    
+               </ul>
+                <!-- END X-NAVIGATION -->
+            </div>
+            <!-- END PAGE SIDEBAR -->
+            
+            <!-- PAGE CONTENT -->
+            <div class="page-content">
+                
+                <!-- START X-NAVIGATION VERTICAL -->
+                <ul class="x-navigation x-navigation-horizontal x-navigation-panel">
+                    <!-- TOGGLE NAVIGATION -->
+                    <li class="xn-icon-button">
+                        <a href="#" class="x-navigation-minimize"><span class="fa fa-dedent"></span></a>
+                    </li>
+                    <!-- END TOGGLE NAVIGATION -->
+                   
+
+                    <p>
+                    <li class="xn-text text1 pull-right">
+                    
+                     Current Date: <%= Session["CurrentDate"].ToString() %>
+                    </li>
+                        <br>
+                    <li class="xn-text text1 pull-right">
+                    
+                     Financial Date: <%= Session["FinancialDate"].ToString() %>
+                    </li>
+
+                    </p>
+
+                    
+                </ul>
+                <!-- END X-NAVIGATION VERTICAL -->                     
+
+                <!-- START BREADCRUMB -->
+                <ul class="breadcrumb">
+                   <%-- <li><a href="#">Home</a></li>                    
+                    <li class="active">Dashboard</li>--%>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <!-- END BREADCRUMB -->                       
+                
+                <!-- PAGE CONTENT WRAPPER -->
+                <div class="page-content-wrap">
+                    <div class="col-md-1">   </div>
+                    <div class="col-md-10">
+                        <form runat="server">
+					<asp:ContentPlaceHolder ID="MainContent" runat="server">
+					    
+                        
+
+                    </asp:ContentPlaceHolder>
+                        </form>
+                    </div>
+                    <div class="col-md-1">   </div>
+                </div>
+                <!-- END PAGE CONTENT WRAPPER -->                                
+            </div>            
+            <!-- END PAGE CONTENT -->
+        </div>
+        <!-- END PAGE CONTAINER -->
+
+        <!-- MESSAGE BOX-->
+        <div class="message-box animated fadeIn" data-sound="alert" id="mb-signout">
+            <div class="mb-container">
+                <div class="mb-middle">
+                    <div class="mb-title"><span class="fa fa-sign-out"></span> Log <strong>Out</strong> ?</div>
+                    <div class="mb-content">
+                        <p>Are you sure you want to log out?</p>                    
+                        <p>Press No if you want to continue work. Press Yes to logout current user.</p>
+                    </div>
+                    <div class="mb-footer">
+                        <div class="pull-right">
+                            <a href="pages-login.html" class="btn btn-success btn-lg">Yes</a>
+                            <button class="btn btn-default btn-lg mb-control-close">No</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END MESSAGE BOX-->
+
+        <!-- START PRELOADS -->
+        <audio id="audio-alert" src="audio/alert.mp3" preload="auto"></audio>
+        <audio id="audio-fail" src="audio/fail.mp3" preload="auto"></audio>
+        <!-- END PRELOADS -->                  
+        
+    <!-- START SCRIPTS -->
+        <!-- START PLUGINS -->
+        <script type="text/javascript" src="js/plugins/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="js/plugins/jquery/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/plugins/bootstrap/bootstrap.min.js"></script>        
+        <!-- END PLUGINS -->
+
+        <!-- START THIS PAGE PLUGINS-->        
+        <script type='text/javascript' src='js/plugins/icheck/icheck.min.js'></script>        
+        <script type="text/javascript" src="js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
+        <script type="text/javascript" src="js/plugins/scrolltotop/scrolltopcontrol.js"></script>
+        
+        <script type="text/javascript" src="js/plugins/morris/raphael-min.js"></script>
+        <script type="text/javascript" src="js/plugins/morris/morris.min.js"></script>       
+        <script type="text/javascript" src="js/plugins/rickshaw/d3.v3.js"></script>
+        <script type="text/javascript" src="js/plugins/rickshaw/rickshaw.min.js"></script>
+        <script type='text/javascript' src='js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js'></script>
+        <script type='text/javascript' src='js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js'></script>                
+        <script type='text/javascript' src='js/plugins/bootstrap/bootstrap-datepicker.js'></script>                
+        <script type="text/javascript" src="js/plugins/owl/owl.carousel.min.js"></script>
+        
+        
+        <script type="text/javascript" src="js/plugins/moment.min.js"></script>
+        <script type="text/javascript" src="js/plugins/daterangepicker/daterangepicker.js"></script>
+        <!-- END THIS PAGE PLUGINS-->        
+
+        <!-- START TEMPLATE -->
+        <%--<script type="text/javascript" src="js/settings.js"></script>--%>
+        
+        <script type="text/javascript" src="js/plugins.js"></script>        
+        <script type="text/javascript" src="js/actions.js"></script>
+        
+        <script type="text/javascript" src="js/demo_dashboard.js"></script>
+        <!-- END TEMPLATE -->
+    <!-- END SCRIPTS -->         
+    
+        
+    </body>
+</html>

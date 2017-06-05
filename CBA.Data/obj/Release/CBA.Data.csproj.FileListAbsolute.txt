@@ -1,0 +1,12 @@
+C:\Users\Josh\Documents\CBA\CBA.Data\bin\Release\CBA.Data.dll.config
+C:\Users\Josh\Documents\CBA\CBA.Data\bin\Release\CBA.Data.dll
+C:\Users\Josh\Documents\CBA\CBA.Data\bin\Release\CBA.Data.pdb
+C:\Users\Josh\Documents\CBA\CBA.Data\bin\Release\CBA.Core.dll
+C:\Users\Josh\Documents\CBA\CBA.Data\bin\Release\EntityFramework.dll
+C:\Users\Josh\Documents\CBA\CBA.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Josh\Documents\CBA\CBA.Data\bin\Release\CBA.Core.pdb
+C:\Users\Josh\Documents\CBA\CBA.Data\bin\Release\EntityFramework.xml
+C:\Users\Josh\Documents\CBA\CBA.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Josh\Documents\CBA\CBA.Data\obj\Release\CBA.Data.csprojResolveAssemblyReference.cache
+C:\Users\Josh\Documents\CBA\CBA.Data\obj\Release\CBA.Data.dll
+C:\Users\Josh\Documents\CBA\CBA.Data\obj\Release\CBA.Data.pdb

@@ -1,0 +1,9 @@
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Core\bin\Debug\CBA.Core.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Core\bin\Debug\CBA.Core.pdb
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Core\obj\Debug\CBA.Core.dll
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Core\obj\Debug\CBA.Core.pdb
+C:\Users\Quadri-PC\Documents\Visual Studio 2013\Projects\CBA\CBA.Core\obj\Debug\CBA.Core.csprojResolveAssemblyReference.cache
+C:\Users\Josh\Documents\CBA\CBA.Core\bin\Debug\CBA.Core.dll
+C:\Users\Josh\Documents\CBA\CBA.Core\bin\Debug\CBA.Core.pdb
+C:\Users\Josh\Documents\CBA\CBA.Core\obj\Debug\CBA.Core.dll
+C:\Users\Josh\Documents\CBA\CBA.Core\obj\Debug\CBA.Core.pdb

@@ -1,0 +1,16 @@
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Release\CBA.Logic.dll.config
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Release\CBA.Logic.dll
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Release\CBA.Logic.pdb
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Release\CBA.Core.dll
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Release\CBA.Data.dll
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Release\EntityFramework.dll
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Release\System.Web.Providers.dll
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Release\CBA.Core.pdb
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Release\CBA.Data.pdb
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Release\EntityFramework.xml
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Josh\Documents\CBA\CBA.Logic\bin\Release\System.Web.Providers.xml
+C:\Users\Josh\Documents\CBA\CBA.Logic\obj\Release\CBA.Logic.csprojResolveAssemblyReference.cache
+C:\Users\Josh\Documents\CBA\CBA.Logic\obj\Release\CBA.Logic.dll
+C:\Users\Josh\Documents\CBA\CBA.Logic\obj\Release\CBA.Logic.pdb
