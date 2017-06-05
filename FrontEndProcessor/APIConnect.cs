@@ -14,7 +14,7 @@ namespace FrontEndProcessor
     public static class APIConnect
     {
       
-        static string baseURI = "http://localhost:27558/";
+        static string baseURI = "http://localhost:27558/"; //Url to the FEP
 
         public static bool OnUs(string terminalID)
         {
